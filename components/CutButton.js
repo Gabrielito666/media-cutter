@@ -1,0 +1,1 @@
+export const CutButton = () => <button>Cut</button>;
