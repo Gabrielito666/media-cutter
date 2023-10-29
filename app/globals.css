@@ -25,11 +25,23 @@ input[ type = range ]{
   margin: 0;
   display: none;
 }
-.currentTimePoint{
+.timeline{
   position: relative;
+  height: 20%;
+  overflow: hidden;
+}
+.currentTimePoint, .point{
+  position: absolute;
   top: 0;
   width: 3px;
   height: 100%;
-  background-color: red;
   cursor: ew-resize;
+  z-index: 4;
+}
+.currentTimePoint{
+  background-color: red;
+}
+.point{
+  background-color: yellow;
+  z-index: 3;
 }
