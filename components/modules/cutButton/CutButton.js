@@ -1,5 +1,4 @@
 export const CutButton = () => <section>
-    <button>Put points</button>
-    <button>Moove Points</button>
     <button>Cut</button>
+    <label>Select your otput Path</label>
 </section>;

@@ -1,7 +1,7 @@
 import { Title } from "./Title";
-import { Config } from "./Config";
-import { Preview } from "./Preview";
-import { Timeline } from "./Timeline";
-import { CutButton } from "./CutButton";
+import { Config } from "./modules/config/Config";
+import { Preview } from "./modules/preview/Preview";
+import { Timeline } from "./modules/timeline/Timeline";
+import { CutButton } from "./modules/cutButton/CutButton";
 
 export { Title, Config, Preview, Timeline, CutButton };

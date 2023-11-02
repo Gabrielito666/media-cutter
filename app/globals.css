@@ -41,7 +41,9 @@ input[ type = range ]{
 .currentTimePoint{
   background-color: red;
 }
-.point{
-  background-color: yellow;
-  z-index: 3;
+.cutSection{
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
 }
